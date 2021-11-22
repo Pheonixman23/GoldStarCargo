@@ -25,11 +25,11 @@ export const CustomNavLink = styled("div")`
   display: inline-block;
 
   @media only screen and (max-width: 411px) {
-    width: 150px;
+    width: 550px;
   }
 
   @media only screen and (max-width: 320px) {
-    width: 118px;
+    width: 518px;
   }
 `;
 

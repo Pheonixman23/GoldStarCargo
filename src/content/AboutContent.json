@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Air Freight",
+  "text": "Gold Star Cargo is one of the leading Shipping services to provide exclusive Air freight. We offer customer tailed solutions putting you first. Air Freight services are available from UK, USA & Germany.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Why Gold Star Cargo?",
+      "content": "We offer high class storage and shipping air frieght services to Kenya. Putting Customer Serivce first. ",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Why Customer Service",
+      "content": "We beleive the better the customer service the better the experience. Gold Star Cargo is a compnay you can trust.",
       "icon": "notes.svg"
     }
   ]

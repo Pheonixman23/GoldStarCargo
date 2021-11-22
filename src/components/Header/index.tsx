@@ -59,15 +59,21 @@ const Header = ({ t }: any) => {
           </Link> 
         </CustomNavLinkSmall>
 
+        <CustomNavLinkSmall>
+          <Link to="/OnlineShopping"> 
+          <Span>{t("Online Shopping")}</Span>
+          </Link> 
+        </CustomNavLinkSmall>
 
         <CustomNavLinkSmall
-          style={{ width: "180px" }}
+          style={{ width: "150px" }}
           onClick={() => scrollTo("contact")}
         >
 
           <Span>
             <Button>{t("Contact")}</Button>
           </Span>
+          
         </CustomNavLinkSmall>
       </>
     );
@@ -79,8 +85,8 @@ const Header = ({ t }: any) => {
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
            <p style={{
-             margin: "0",
-             fontSize:"2rem"
+             margin: "0px",
+             fontSize:"1.8rem"
            }}>Gold Star Cargo</p>
           </LogoContainer>
           <NotHidden>
@@ -91,7 +97,7 @@ const Header = ({ t }: any) => {
           </Burger>
         </Row>
         <Drawer closable={false} visible={visible} onClose={onClose}>
-          <Col style={{ marginBottom: "2.5rem" }}>
+          <Col style={{ marginBottom: "1.5rem" }}>
             <Label onClick={onClose}>
               <Col span={12}>
                 <Menu>Menu</Menu>

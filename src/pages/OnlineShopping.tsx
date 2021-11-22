@@ -1,21 +1,19 @@
 import { lazy } from "react";
 import { Link } from "react-router-dom";
-import SinglePost from './Pages3/SinglePost'
-import Sidebar from './Pages3/Sidebar'
-import './Pages3/single.css'
+import SinglePost from './Pages4/SinglePost'
+import './Pages4/single.css'
 import ContactContent from "../content/ContactContent.json";
-import ScrollToTop from "../common/ScrollToTop";
 import TimeLine from "../components/TimeLine/Index";
-const Contact = lazy(() => import("../components/ContactForm"));
 const Container = lazy(() => import("../common/Container"));
+const Contact = lazy(() => import("../components/ContactForm"));
 
-function USAToKeyna() {
+function OnlineShopping() {
     return (
       <div> 
       <div className="single">
   </div>
-    <SinglePost />
-    <TimeLine/>
+    <SinglePost/>
+    {/* <TimeLine/> */}
     <Container>
    <Contact
       title={ContactContent.title}
@@ -27,4 +25,6 @@ function USAToKeyna() {
     )
 }
 
-export default USAToKeyna
+export default OnlineShopping
+
+

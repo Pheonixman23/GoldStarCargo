@@ -7,7 +7,9 @@ import Home from '../pages/Home/index'
 import UkToKeyna from '../pages/UkToKeyna'
 import GermanyToKenya from '../pages/GermanyToKenya'
 import USAToKenya from '../pages/USAToKenya'
-import Blog from '../pages/Blog/Blog'
+import OnlineShopping from '../pages/OnlineShopping'
+import Delivery from '../pages/Delivery'
+
 
 const Routers = () => {
   return (
@@ -16,9 +18,12 @@ const Routers = () => {
       <Header />
       <Switch>
       <Route path='/' exact component={Home} />
-      <Route path='/Blog' exact component={Blog} />
+      <Route path='/UkToKeyna' exact component={UkToKeyna} />
       <Route path='/GermanyToKenya' exact component={GermanyToKenya} />
       <Route path='/USAToKenya' exact component={USAToKenya} />
+      <Route path='/OnlineShopping' exact component={OnlineShopping} />
+      <Route path='/Delivery' exact component={Delivery} />
+
       </Switch>
       <Footer />
     </Suspense>
